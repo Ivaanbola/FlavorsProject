@@ -3,10 +3,10 @@ import {
   SafeAreaView,
   ScrollView,
   StatusBar,
-  StyleSheet,
   useColorScheme,
 } from 'react-native';
 import Navigator from './src/Navigator';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';

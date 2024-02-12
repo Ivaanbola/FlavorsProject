@@ -73,8 +73,24 @@ android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
-
+    flavorDimensions "default"
     namespace "com.flavorsproject"
+
+    productFlavors {
+            dev {
+                applicationId 'com.flavorsproject.dev'
+                resValue "string", "build_config_package", "com.myapp"
+            }
+            qa {
+                applicationIdSuffix '.qa'
+                resValue "string", "build_config_package", "com.myapp"
+            }
+            prod {
+                applicationId 'com.flavorsproject'
+                resValue "string", "build_config_package", "com.myapp"
+            }
+
+    }
     defaultConfig {
         applicationId "com.flavorsproject"
         minSdkVersion rootProject.ext.minSdkVersion
