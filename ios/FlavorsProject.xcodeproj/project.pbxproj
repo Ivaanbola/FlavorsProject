@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FlavorsProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FlavorsProjectTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FlavorsProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FlavorsProject.a */; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-FlavorsProject-FlavorsProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavorsProject-FlavorsProjectTests.a */; };
+		50260930BFD6094615C4478B /* libPods-App-Utility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3F2526B7BDF69AF2799FA /* libPods-App-Utility.a */; };
+		5076897AA56F420D1B253D61 /* libPods-App-FlavorsProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8DEF09E1C1DC49F9893495 /* libPods-App-FlavorsProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A32071472B83C67200C6C2FF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		A32071482B83C67200C6C2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		A320714C2B83C67200C6C2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A320714D2B83C67200C6C2FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		B154F46F31F8D2F0D8331E3B /* libPods-App-FlavorsProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9EF1DDDF8ADDE03A7635D1 /* libPods-App-FlavorsProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +36,55 @@
 		00E356EE1AD99517003FC87E /* FlavorsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FlavorsProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlavorsProjectTests.m; sourceTree = "<group>"; };
+		0DFCAAAAF04BCAEF7BF7B1F8 /* Pods-Utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.release.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FlavorsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FlavorsProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FlavorsProject/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FlavorsProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FlavorsProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FlavorsProject/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavorsProject-FlavorsProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavorsProject-FlavorsProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA8563194808A6FC1F4DFAD /* Pods-App-FlavorsProject.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.dev.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.dev.debug.xcconfig"; sourceTree = "<group>"; };
+		22177A72E9FE46FADD12A662 /* Pods-Utility.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.qa.debug.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		258FE1058A49AFA3AF43733D /* Pods-Utility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.debug.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABD74CC9EA2E46A8BB299A9 /* Pods-App-FlavorsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F2350D34FD68D65D118A31A /* Pods-FlavorsProject-FlavorsProjectTests.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.qa.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		3981591EBA8F1D20A235026E /* Pods-App-Utility.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.qa.debug.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.qa.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-FlavorsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3F4397959BA64E9A6C247E43 /* Pods-FlavorsProject.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.dev.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.dev.debug.xcconfig"; sourceTree = "<group>"; };
+		467CB3C3B287E09F6CAD71C9 /* Pods-App-Utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.release.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.release.xcconfig"; sourceTree = "<group>"; };
+		4A408D163EB7096B4B54CE6E /* Pods-FlavorsProject.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.qa.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.qa.release.xcconfig"; sourceTree = "<group>"; };
+		4B8DEF09E1C1DC49F9893495 /* libPods-App-FlavorsProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-FlavorsProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521E383235BD4984935238A9 /* Pods-Utility.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.dev.release.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.dev.release.xcconfig"; sourceTree = "<group>"; };
+		55BD6B82621364C274A22DD7 /* Pods-App-Utility.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.dev.release.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.dev.release.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-FlavorsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.release.xcconfig"; sourceTree = "<group>"; };
+		5A00F6F93B4FD257693FD58A /* Pods-App-FlavorsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FlavorsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavorsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1FEAE86BF7EF1860F8962B /* Pods-FlavorsProject-FlavorsProjectTests.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.qa.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.qa.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FlavorsProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83D3F2526B7BDF69AF2799FA /* libPods-App-Utility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-Utility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8674E41FBE18729ED7E4C467 /* Pods-App-FlavorsProjectTests.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.dev.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.dev.release.xcconfig"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FC00A62C0344FEB5684F6F8 /* Pods-App-FlavorsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CB5DA39A989CD45044E9B9 /* Pods-App-Utility.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.dev.debug.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.dev.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9EF1DDDF8ADDE03A7635D1 /* libPods-App-FlavorsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-FlavorsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A127B48A143F37D3FD3475 /* Pods-App-FlavorsProject.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.qa.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.qa.release.xcconfig"; sourceTree = "<group>"; };
+		A14FEF89B6BAD9D3512D9E67 /* Pods-App-FlavorsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A32071582B83C67200C6C2FF /* Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A320715A2B83C6BE00C6C2FF /* UtilityInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UtilityInfo.plist; sourceTree = "<group>"; };
+		AF40F4F68572A4B9655D42AB /* Pods-App-Utility.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.qa.release.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.qa.release.xcconfig"; sourceTree = "<group>"; };
+		B0EB47109A1FB4AF3E160D6C /* Pods-App-FlavorsProjectTests.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.qa.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A7967FA52288BE885243F5 /* Pods-App-FlavorsProject.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.qa.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB6554066ABF75CF90141AB /* Pods-App-FlavorsProjectTests.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.dev.debug.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.dev.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC4B2C0DF75C522E58B4E03 /* Pods-App-Utility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Utility.debug.xcconfig"; path = "Target Support Files/Pods-App-Utility/Pods-App-Utility.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D7785410518E52737350E7 /* Pods-App-FlavorsProjectTests.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProjectTests.qa.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProjectTests/Pods-App-FlavorsProjectTests.qa.release.xcconfig"; sourceTree = "<group>"; };
+		D48DDD3069E43963D16257C9 /* Pods-Utility.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.qa.release.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.qa.release.xcconfig"; sourceTree = "<group>"; };
+		D6D54AD6F9BCFFE8AFD087D6 /* Pods-FlavorsProject-FlavorsProjectTests.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.dev.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.dev.release.xcconfig"; sourceTree = "<group>"; };
+		D9F8813311E9A041DDFFE287 /* Pods-FlavorsProject-FlavorsProjectTests.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject-FlavorsProjectTests.dev.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests.dev.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0690DE302FEBEC4CBE4B48 /* Pods-FlavorsProject.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.dev.release.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.dev.release.xcconfig"; sourceTree = "<group>"; };
+		E2DCF2FF332EDB5FB7395790 /* Pods-FlavorsProject.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorsProject.qa.debug.xcconfig"; path = "Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		EB321B0084E2F9E091D386BF /* Pods-App-FlavorsProject.dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-FlavorsProject.dev.release.xcconfig"; path = "Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject.dev.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F54D525A4E21AE86ADC43345 /* Pods-Utility.dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.dev.debug.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.dev.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FlavorsProject-FlavorsProjectTests.a in Frameworks */,
+				5076897AA56F420D1B253D61 /* libPods-App-FlavorsProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +100,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FlavorsProject.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				B154F46F31F8D2F0D8331E3B /* libPods-App-FlavorsProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32071492B83C67200C6C2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50260930BFD6094615C4478B /* libPods-App-Utility.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FlavorsProject.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavorsProject-FlavorsProjectTests.a */,
+				9B9EF1DDDF8ADDE03A7635D1 /* libPods-App-FlavorsProject.a */,
+				4B8DEF09E1C1DC49F9893495 /* libPods-App-FlavorsProjectTests.a */,
+				83D3F2526B7BDF69AF2799FA /* libPods-App-Utility.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +167,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A320715C2B83C6F700C6C2FF /* UtilityFlavor */,
 				13B07FAE1A68108700A75B9A /* FlavorsProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* FlavorsProjectTests */,
@@ -133,8 +185,17 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* FlavorsProject.app */,
 				00E356EE1AD99517003FC87E /* FlavorsProjectTests.xctest */,
+				A32071582B83C67200C6C2FF /* Utility.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A320715C2B83C6F700C6C2FF /* UtilityFlavor */ = {
+			isa = PBXGroup;
+			children = (
+				A320715A2B83C6BE00C6C2FF /* UtilityInfo.plist */,
+			);
+			path = UtilityFlavor;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -144,6 +205,38 @@
 				5709B34CF0A7D63546082F79 /* Pods-FlavorsProject.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig */,
+				E2DCF2FF332EDB5FB7395790 /* Pods-FlavorsProject.qa.debug.xcconfig */,
+				3F4397959BA64E9A6C247E43 /* Pods-FlavorsProject.dev.debug.xcconfig */,
+				4A408D163EB7096B4B54CE6E /* Pods-FlavorsProject.qa.release.xcconfig */,
+				DE0690DE302FEBEC4CBE4B48 /* Pods-FlavorsProject.dev.release.xcconfig */,
+				2F2350D34FD68D65D118A31A /* Pods-FlavorsProject-FlavorsProjectTests.qa.debug.xcconfig */,
+				D9F8813311E9A041DDFFE287 /* Pods-FlavorsProject-FlavorsProjectTests.dev.debug.xcconfig */,
+				7A1FEAE86BF7EF1860F8962B /* Pods-FlavorsProject-FlavorsProjectTests.qa.release.xcconfig */,
+				D6D54AD6F9BCFFE8AFD087D6 /* Pods-FlavorsProject-FlavorsProjectTests.dev.release.xcconfig */,
+				258FE1058A49AFA3AF43733D /* Pods-Utility.debug.xcconfig */,
+				22177A72E9FE46FADD12A662 /* Pods-Utility.qa.debug.xcconfig */,
+				F54D525A4E21AE86ADC43345 /* Pods-Utility.dev.debug.xcconfig */,
+				0DFCAAAAF04BCAEF7BF7B1F8 /* Pods-Utility.release.xcconfig */,
+				D48DDD3069E43963D16257C9 /* Pods-Utility.qa.release.xcconfig */,
+				521E383235BD4984935238A9 /* Pods-Utility.dev.release.xcconfig */,
+				A14FEF89B6BAD9D3512D9E67 /* Pods-App-FlavorsProject.debug.xcconfig */,
+				B7A7967FA52288BE885243F5 /* Pods-App-FlavorsProject.qa.debug.xcconfig */,
+				1EA8563194808A6FC1F4DFAD /* Pods-App-FlavorsProject.dev.debug.xcconfig */,
+				5A00F6F93B4FD257693FD58A /* Pods-App-FlavorsProject.release.xcconfig */,
+				A0A127B48A143F37D3FD3475 /* Pods-App-FlavorsProject.qa.release.xcconfig */,
+				EB321B0084E2F9E091D386BF /* Pods-App-FlavorsProject.dev.release.xcconfig */,
+				8FC00A62C0344FEB5684F6F8 /* Pods-App-FlavorsProjectTests.debug.xcconfig */,
+				B0EB47109A1FB4AF3E160D6C /* Pods-App-FlavorsProjectTests.qa.debug.xcconfig */,
+				BBB6554066ABF75CF90141AB /* Pods-App-FlavorsProjectTests.dev.debug.xcconfig */,
+				2ABD74CC9EA2E46A8BB299A9 /* Pods-App-FlavorsProjectTests.release.xcconfig */,
+				C1D7785410518E52737350E7 /* Pods-App-FlavorsProjectTests.qa.release.xcconfig */,
+				8674E41FBE18729ED7E4C467 /* Pods-App-FlavorsProjectTests.dev.release.xcconfig */,
+				BEC4B2C0DF75C522E58B4E03 /* Pods-App-Utility.debug.xcconfig */,
+				3981591EBA8F1D20A235026E /* Pods-App-Utility.qa.debug.xcconfig */,
+				99CB5DA39A989CD45044E9B9 /* Pods-App-Utility.dev.debug.xcconfig */,
+				467CB3C3B287E09F6CAD71C9 /* Pods-App-Utility.release.xcconfig */,
+				AF40F4F68572A4B9655D42AB /* Pods-App-Utility.qa.release.xcconfig */,
+				55BD6B82621364C274A22DD7 /* Pods-App-Utility.dev.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -159,8 +252,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +282,27 @@
 			name = FlavorsProject;
 			productName = FlavorsProject;
 			productReference = 13B07F961A680F5B00A75B9A /* FlavorsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32071442B83C67200C6C2FF /* Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32071512B83C67200C6C2FF /* Build configuration list for PBXNativeTarget "Utility" */;
+			buildPhases = (
+				A32071452B83C67200C6C2FF /* [CP] Check Pods Manifest.lock */,
+				A32071462B83C67200C6C2FF /* Sources */,
+				A32071492B83C67200C6C2FF /* Frameworks */,
+				A320714B2B83C67200C6C2FF /* Resources */,
+				A320714E2B83C67200C6C2FF /* Bundle React Native code and images */,
+				A320714F2B83C67200C6C2FF /* [CP] Embed Pods Frameworks */,
+				A32071502B83C67200C6C2FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utility;
+			productName = FlavorsProject;
+			productReference = A32071582B83C67200C6C2FF /* Utility.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,6 +338,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* FlavorsProject */,
 				00E356ED1AD99517003FC87E /* FlavorsProjectTests */,
+				A32071442B83C67200C6C2FF /* Utility */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +357,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A320714B2B83C67200C6C2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A320714C2B83C67200C6C2FF /* LaunchScreen.storyboard in Resources */,
+				A320714D2B83C67200C6C2FF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +394,87 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32071452B83C67200C6C2FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-Utility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A320714E2B83C67200C6C2FF /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		A320714F2B83C67200C6C2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32071502B83C67200C6C2FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-Utility/Pods-App-Utility-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +492,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlavorsProject-FlavorsProjectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-FlavorsProjectTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,28 +514,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlavorsProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-FlavorsProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,32 +527,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject/Pods-FlavorsProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavorsProject-FlavorsProjectTests/Pods-FlavorsProject-FlavorsProjectTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-FlavorsProject/Pods-App-FlavorsProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -398,6 +558,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A32071462B83C67200C6C2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32071472B83C67200C6C2FF /* AppDelegate.mm in Sources */,
+				A32071482B83C67200C6C2FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -411,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 8FC00A62C0344FEB5684F6F8 /* Pods-App-FlavorsProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -438,7 +607,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig */;
+			baseConfigurationReference = 2ABD74CC9EA2E46A8BB299A9 /* Pods-App-FlavorsProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -462,7 +631,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FlavorsProject.debug.xcconfig */;
+			baseConfigurationReference = A14FEF89B6BAD9D3512D9E67 /* Pods-App-FlavorsProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = "";
@@ -492,7 +661,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FlavorsProject.release.xcconfig */;
+			baseConfigurationReference = 5A00F6F93B4FD257693FD58A /* Pods-App-FlavorsProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = "";
@@ -587,7 +756,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -655,13 +827,194 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A32071522B83C67200C6C2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC4B2C0DF75C522E58B4E03 /* Pods-App-Utility.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		A32071532B83C67200C6C2FF /* QA.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3981591EBA8F1D20A235026E /* Pods-App-Utility.qa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
+				BUNDLE_ID_SUFFIX = " .qa";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.Utility-Qa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = QA.Debug;
+		};
+		A32071542B83C67200C6C2FF /* Dev.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CB5DA39A989CD45044E9B9 /* Pods-App-Utility.dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
+				BUNDLE_ID_SUFFIX = " .dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.FlavorsProject-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Dev.Debug;
+		};
+		A32071552B83C67200C6C2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467CB3C3B287E09F6CAD71C9 /* Pods-App-Utility.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		A32071562B83C67200C6C2FF /* QA.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF40F4F68572A4B9655D42AB /* Pods-App-Utility.qa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
+				BUNDLE_ID_SUFFIX = " .qa";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.Utility-Qa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = QA.Release;
+		};
+		A32071572B83C67200C6C2FF /* Dev.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BD6B82621364C274A22DD7 /* Pods-App-Utility.dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
+				BUNDLE_ID_SUFFIX = " .dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N63L7LKN;
+				INFOPLIST_FILE = UtilityFlavor/UtilityInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.FlavorsProject-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Dev.Release;
 		};
 		A393027E2B82422300FF0922 /* Dev.Debug */ = {
 			isa = XCBuildConfiguration;
@@ -732,7 +1085,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -741,7 +1097,7 @@
 		};
 		A393027F2B82422300FF0922 /* Dev.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FlavorsProject.debug.xcconfig */;
+			baseConfigurationReference = 1EA8563194808A6FC1F4DFAD /* Pods-App-FlavorsProject.dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
@@ -772,7 +1128,7 @@
 		};
 		A39302802B82422300FF0922 /* Dev.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig */;
+			baseConfigurationReference = BBB6554066ABF75CF90141AB /* Pods-App-FlavorsProjectTests.dev.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -858,7 +1214,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -868,7 +1227,7 @@
 		};
 		A39302822B82422C00FF0922 /* Dev.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FlavorsProject.release.xcconfig */;
+			baseConfigurationReference = EB321B0084E2F9E091D386BF /* Pods-App-FlavorsProject.dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
@@ -897,7 +1256,7 @@
 		};
 		A39302832B82422C00FF0922 /* Dev.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig */;
+			baseConfigurationReference = 8674E41FBE18729ED7E4C467 /* Pods-App-FlavorsProjectTests.dev.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -988,7 +1347,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -997,7 +1359,7 @@
 		};
 		A39302852B82423500FF0922 /* QA.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FlavorsProject.debug.xcconfig */;
+			baseConfigurationReference = B7A7967FA52288BE885243F5 /* Pods-App-FlavorsProject.qa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
@@ -1028,7 +1390,7 @@
 		};
 		A39302862B82423500FF0922 /* QA.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FlavorsProject-FlavorsProjectTests.debug.xcconfig */;
+			baseConfigurationReference = B0EB47109A1FB4AF3E160D6C /* Pods-App-FlavorsProjectTests.qa.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1114,7 +1476,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -1124,7 +1489,7 @@
 		};
 		A39302882B82424100FF0922 /* QA.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FlavorsProject.release.xcconfig */;
+			baseConfigurationReference = A0A127B48A143F37D3FD3475 /* Pods-App-FlavorsProject.qa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "AppIcon$(BUNDLE_ID_SUFFIX)";
@@ -1153,7 +1518,7 @@
 		};
 		A39302892B82424100FF0922 /* QA.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FlavorsProject-FlavorsProjectTests.release.xcconfig */;
+			baseConfigurationReference = C1D7785410518E52737350E7 /* Pods-App-FlavorsProjectTests.qa.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1213,6 +1578,19 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 				A39302872B82424100FF0922 /* QA.Release */,
 				A39302812B82422C00FF0922 /* Dev.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32071512B83C67200C6C2FF /* Build configuration list for PBXNativeTarget "Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32071522B83C67200C6C2FF /* Debug */,
+				A32071532B83C67200C6C2FF /* QA.Debug */,
+				A32071542B83C67200C6C2FF /* Dev.Debug */,
+				A32071552B83C67200C6C2FF /* Release */,
+				A32071562B83C67200C6C2FF /* QA.Release */,
+				A32071572B83C67200C6C2FF /* Dev.Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
